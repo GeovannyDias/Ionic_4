@@ -1,0 +1,65 @@
+
+
+Pages:
+Componentes
+ionic g page ruta/ruta/ruta
+
+Atributos:
+texte-center
+
+Color:
+color="primary"
+
+IMG CSS:
+class="nombreClase"
+
+nombreClase{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+================================================
+Conexion Firebase:
+================================================
+Install: (Dependencia - Necesitamos para conectarnos con firebase)
+
+npm install firebase @angular/fire --save
+
+================================================
+Servicios
+================================================
+Servicio: proveedor de datos
+ionic g service servicios/auth
+
+para que no se vea inmantenible el codigo.
+Crear metodos de autenticacion.
+
+Import AngularFireAuth from @angular/fire/auth
+
+Injectar el constructor
+de tipo
+AFsuth: AngularFireAuth
+
+
+===================================================
+Data Building:
+[(ngModel)]="variable"
+===================================================
+Promesas:
+Para manejar la respuesta del servidor
+return new promise(resolve, rejected)=>{
+
+}
+resultado de algun evento que te devuelve
+
+
+===================================================
+Router:
+orientado a la navegacion.
+import Router from @angular/router
+
+siempre inyectar en el constructor
+
+

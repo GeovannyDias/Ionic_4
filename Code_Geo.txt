@@ -35,12 +35,21 @@ Mandar un argumento al pipe
 ==========================================================
 MyDate: (Formato de fecha y hora ISO 8601: AAAA-MM-DDTHH: mmZ)
 
+IONIC: (Hora US = Acepta ionic)
 TS
 myDate: String = new Date().toISOString();
 HTML
 <ion-datetime displayFormat="MMM DD, h:mm A" [(ngModel)]="myDate"></ion-datetime>
 
 https://forum.ionicframework.com/t/datetime-default-to-todays-date/53178/8
+
+JavaScript: (Hora Ecuador)
+myDate = new Date();
+console.log("Time: "+this.myDate+" "+ "Hora: "+this.myDate.getHours()+"\nMinuto: "+this.myDate.getMinutes()+"\nSegundo: "+this.myDate.getSeconds()+"\nMilisegundo: "+this.myDate.getMilliseconds());
+
+Angular 8:
+
+https://angular.io/api/common/DatePipe
 
 ==========================================================
 

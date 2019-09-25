@@ -33,12 +33,38 @@ Mandar un argumento al pipe
 
 
 ==========================================================
+MyDate: (Formato de fecha y hora ISO 8601: AAAA-MM-DDTHH: mmZ)
+
+TS
+myDate: String = new Date().toISOString();
+HTML
+<ion-datetime displayFormat="MMM DD, h:mm A" [(ngModel)]="myDate"></ion-datetime>
+
+https://forum.ionicframework.com/t/datetime-default-to-todays-date/53178/8
+
+==========================================================
 
 
 
 
 
 ==========================================================
+
+
+
+
+
+==========================================================
+
+
+
+
+
+==========================================================
+
+
+
+
 
 
 

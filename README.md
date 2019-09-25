@@ -3,6 +3,7 @@ Codigo
 
 # Back - Button
 
+'''
  <ion-header translucent>
   <ion-toolbar>
     <ion-buttons slot="start">
@@ -11,7 +12,7 @@ Codigo
     <ion-title>Page Two</ion-title>
   </ion-toolbar>
 </ion-header>
-
+'''
 
 
 

@@ -13,10 +13,16 @@
 27- ion-searchbar
 https://www.youtube.com/watch?v=gbz2I3tANmc
   - API
-  - PIPE
+28- ion-searchbar :: Aplicando el filtro en la lista
+https://www.youtube.com/watch?v=ugZDc_bL8PY
+  - PIPE // 
 
 ==========================================================
+- PIPES
 
+Primero crear el modulo (m = module, p = pipe / --spec=false No crea el archivo de pruebas)
+ionic g m pipes
+ionic g p pippes/filtro --spec=false
 
 
 

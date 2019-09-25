@@ -10,7 +10,10 @@
   </ion-toolbar>
 </ion-header>
 
+27- ion-searchbar
 https://www.youtube.com/watch?v=gbz2I3tANmc
+  - API
+  - PIPE
 
 ==========================================================
 

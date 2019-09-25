@@ -10,6 +10,8 @@
   </ion-toolbar>
 </ion-header>
 
+https://www.youtube.com/watch?v=5FN2_m2gQB8
+
 27- ion-searchbar
 https://www.youtube.com/watch?v=gbz2I3tANmc
   - API
@@ -24,6 +26,8 @@ Primero crear el modulo (m = module, p = pipe / --spec=false No crea el archivo 
 ionic g m pipes
 ionic g p pippes/filtro --spec=false
 
+Mandar un argumento al pipe
+*ngFor="let album of albumes | filtro:'abc'"
 
 
 

@@ -1,5 +1,16 @@
 
+Remove padding from item
+css file:
 
+.no-padding {
+    padding: 0px !important;
+}
+
+html file, add the class “no-padding” to your div or item:
+
+<a class="item no-padding">
+. . .
+</a>
 
 ===============================================
 

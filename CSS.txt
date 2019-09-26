@@ -13,8 +13,21 @@ html file, add the class “no-padding” to your div or item:
 </a>
 
 ===============================================
+Cómo poner texto encima de una imagen con HTML/CSS:
+
+https://regardis.com/como-poner-texto-encima-de-una-imagen-con-html-css/
+
+
+===============================================
+
+
+===============================================
 
 
 
+===============================================
 
+
+
+===============================================
 

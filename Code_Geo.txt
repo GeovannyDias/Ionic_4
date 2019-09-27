@@ -29,9 +29,6 @@ ionic g p pippes/filtro --spec=false
 Mandar un argumento al pipe
 *ngFor="let album of albumes | filtro:'abc'"
 
-
-
-
 ==========================================================
 MyDate: (Formato de fecha y hora ISO 8601: AAAA-MM-DDTHH: mmZ)
 
@@ -52,8 +49,8 @@ Angular 8:
 https://angular.io/api/common/DatePipe
 
 ==========================================================
-
-
+Ionic2 Custom Alert Message
+https://www.youtube.com/watch?v=VnqOpLVcXBM
 
 
 

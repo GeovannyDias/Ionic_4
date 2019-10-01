@@ -1,6 +1,8 @@
 # Ionic_4
 Codigo
 
+
+
 # Back - Button
 
 '''
@@ -14,5 +16,9 @@ Codigo
 </ion-header>
 '''
 
+# Information Web
+
+# Parámetros en las rutas Angular
+https://desarrolloweb.com/articulos/parametros-rutas-angular.html
 
 

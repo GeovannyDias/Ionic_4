@@ -29,5 +29,7 @@ Codigo
 # Primeros pasos con Firebase Authentication en sitios web
 * **https://firebase.google.com/docs/auth/web/start?hl=es-419**
 
+# Flujo de datos entre componentes Angular
 
+* **https://academia-binaria.com/flujo-de-datos-entre-componentes-angular/**
 

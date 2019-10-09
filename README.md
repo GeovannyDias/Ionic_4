@@ -21,4 +21,6 @@ Codigo
 # Parámetros en las rutas Angular
 https://desarrolloweb.com/articulos/parametros-rutas-angular.html
 
+# Realiza consultas simples y compuestas en Cloud Firestore
 
+https://firebase.google.com/docs/firestore/query-data/queries?hl=es-419

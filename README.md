@@ -25,3 +25,9 @@ https://desarrolloweb.com/articulos/parametros-rutas-angular.html
 * **https://firebase.google.com/docs/firestore/query-data/queries?hl=es-419**
 * **https://firebase.google.com/docs/firestore/query-data/get-data?hl=es-419**
 * **https://firebase.google.com/docs/firestore/query-data/listen?hl=es-419**
+
+# Primeros pasos con Firebase Authentication en sitios web
+* **https://firebase.google.com/docs/auth/web/start?hl=es-419**
+
+
+

@@ -24,6 +24,38 @@ Codigo
 
 * **https://firebase.google.com/docs/firestore/query-data/queries?hl=es-419**
 
+```
+Agregar la propiedad ".ref"
+
+db.collection("coleccion").ref.doc("id_doc")....
+db.collection("coleccion").ref.where("clave", "==", "valor").get().....
+
+//Funsion con dos formar de consulta
+queryUser() {
+    const uid = this.afAuth.auth.currentUser.uid;
+    console.log('uid_geo: ', uid);
+
+    this.db.collection("tramites").ref.doc("UT4y0a3SRw29QzqiotQt")
+      .onSnapshot(function (doc) {
+        const data = doc.data();
+        console.log("Current data: ", doc.data());
+        console.log('Observacion: ', data.observacion);
+      });
+
+    this.db.collection("tramites").ref.where("estado", "==", "finalizado")
+      .get().then(querySnapshot => {
+        querySnapshot.forEach(doc => {
+          // doc.data() is never undefined for query doc snapshots
+          console.log(doc.id, " => ", doc.data().observacion);
+        });
+      }).catch(error => {
+        console.log("Error getting documents: ", error);
+      });
+  }
+  
+```
+**Información similar**
+
 * **https://firebase.google.com/docs/firestore/query-data/get-data?hl=es-419**
 * **https://firebase.google.com/docs/firestore/query-data/listen?hl=es-419**
 

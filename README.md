@@ -30,7 +30,7 @@ Agregar la propiedad ".ref"
 db.collection("coleccion").ref.doc("id_doc")....
 db.collection("coleccion").ref.where("clave", "==", "valor").get().....
 
-//Funsion con dos formar de consulta
+//Funsión con dos formar de consulta
 queryUser() {
     const uid = this.afAuth.auth.currentUser.uid;
     console.log('uid_geo: ', uid);
@@ -54,7 +54,7 @@ queryUser() {
   }
   
 ```
-**Información similar**
+**Información similar al tema anterior**
 
 * **https://firebase.google.com/docs/firestore/query-data/get-data?hl=es-419**
 * **https://firebase.google.com/docs/firestore/query-data/listen?hl=es-419**

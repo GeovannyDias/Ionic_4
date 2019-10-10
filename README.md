@@ -35,6 +35,7 @@ queryUser() {
     const uid = this.afAuth.auth.currentUser.uid;
     console.log('uid_geo: ', uid);
 
+    //Consulta de un solo documento segun su "id"
     this.db.collection("tramites").ref.doc("UT4y0a3SRw29QzqiotQt")
       .onSnapshot(function (doc) {
         const data = doc.data();
@@ -42,6 +43,7 @@ queryUser() {
         console.log('Observacion: ', data.observacion);
       });
 
+    //Consulta de varios documentos con un valor existentes
     this.db.collection("tramites").ref.where("estado", "==", "finalizado")
       .get().then(querySnapshot => {
         querySnapshot.forEach(doc => {
@@ -52,6 +54,8 @@ queryUser() {
         console.log("Error getting documents: ", error);
       });
   }
+  
+  En la segunda consulta se pude enviar como valor el uid del usuario logueado.
   
 ```
 **Información similar al tema anterior**

@@ -83,4 +83,9 @@ queryUser() {
 * **https://academia-binaria.com/flujo-de-datos-entre-componentes-angular/**
 
 
+# Basic email authentication with Firebase in Ionic 4
+```
+npm install firebase @angular/fire --save
+```
+* **https://enappd.com/blog/email-authentication-with-firebase-in-ionic-4/38/**
 

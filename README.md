@@ -96,3 +96,6 @@ npm install firebase @angular/fire --save
 
 * **https://medium.com/enappd/using-geolocation-and-beacon-plugins-in-ionic-4-754b41304007**
 
+# Creación de componente Autenticación y Registro con Angular & Firebase # 2
+
+* **https://medium.com/@mesasergio/creaci%C3%B3n-de-componente-autenticaci%C3%B3n-y-registro-con-angular-firebase-2-92c8926fd09d**

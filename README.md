@@ -87,5 +87,12 @@ queryUser() {
 ```
 npm install firebase @angular/fire --save
 ```
+**More information end article**
 * **https://enappd.com/blog/email-authentication-with-firebase-in-ionic-4/38/**
+
+
+
+# How to use Geolocation, Geofencing and Beacon plugins in Ionic 4
+
+* **https://medium.com/enappd/using-geolocation-and-beacon-plugins-in-ionic-4-754b41304007**
 

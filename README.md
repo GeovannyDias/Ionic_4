@@ -99,3 +99,8 @@ npm install firebase @angular/fire --save
 # Creación de componente Autenticación y Registro con Angular & Firebase # 2
 
 * **https://medium.com/@mesasergio/creaci%C3%B3n-de-componente-autenticaci%C3%B3n-y-registro-con-angular-firebase-2-92c8926fd09d**
+
+# Aprende el ciclo de vida de un componente en Ionic
+
+* **https://blog.ng-classroom.com/blog/tips/lifecycle-ionic/**
+

@@ -120,3 +120,8 @@ npm install firebase @angular/fire --save
 
 * **https://www.youtube.com/watch?v=LLADN_R8I1k**
 
+# DECORADORES DE ANGULAR
+## Comunicación entre componentes utilizando ViewChild — Angular
+
+* **https://medium.com/@andydev404/comunicaci%C3%B3n-entre-componentes-utilizando-viewchild-angular-20d5bb4619e5**
+

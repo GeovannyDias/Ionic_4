@@ -104,3 +104,19 @@ npm install firebase @angular/fire --save
 
 * **https://blog.ng-classroom.com/blog/tips/lifecycle-ionic/**
 
+# Aprende el ciclo de vida de un componente en Ionic
+
+* **https://blog.ng-classroom.com/blog/tips/lifecycle-ionic/**
+
+# Eliminar la suscripción a un observable de Angular
+
+* **https://desarrolloweb.com/articulos/eliminar-suscripcion-observable-angular.html**
+
+# Comunicación servicio – componente en Angular
+
+* **http://blog.enriqueoriol.com/2017/05/comunicacion-servicio-componente-en-angular.html**
+
+# Ionic 3 for Beginners : Adding Timer
+
+* **https://www.youtube.com/watch?v=LLADN_R8I1k**
+

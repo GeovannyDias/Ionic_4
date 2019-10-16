@@ -15,6 +15,26 @@ Codigo
 </ion-header>
 ```
 
+# MenuController
+
+```
+import { MenuController } from '@ionic/angular';
+private menuCtrl: MenuController
+
+
+ionViewWillEnter() {
+    console.log('Menu habilitado');
+    //this.menuCtrl.swipeGesture(true, 'primerMenuGeo');
+    this.menuCtrl.enable(true, 'primerMenuGeo');
+  }
+
+  ionViewDidLeave(){
+    console.log('Menu deshabilitado');
+    this.menuCtrl.enable(false, 'primerMenuGeo');
+  }
+  
+```
+
 # Information Web
 
 # Parámetros en las rutas Angular

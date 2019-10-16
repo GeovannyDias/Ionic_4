@@ -145,3 +145,6 @@ npm install firebase @angular/fire --save
 
 * **https://medium.com/@andydev404/comunicaci%C3%B3n-entre-componentes-utilizando-viewchild-angular-20d5bb4619e5**
 
+# IMG
+
+* **https://svgsilh.com/image/1633249.html**

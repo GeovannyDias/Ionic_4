@@ -151,3 +151,6 @@ npm install firebase @angular/fire --save
 
 # Ionic 4 | Turn on Device GPS in Ionic 4 Application Without Leaving App using Ionic Native Plugin
 * **https://www.freakyjolly.com/ionic-4-turn-on-device-gps-in-ionic-4-application-without-leaving-app-using-ionic-native-plugin/**
+
+# Exportar y firmar APK en Ionic
+* **https://www.nigmacode.com/ionic/Exportar-y-firmar-APK-en-Ionic**

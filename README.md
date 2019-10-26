@@ -154,3 +154,6 @@ npm install firebase @angular/fire --save
 
 # Exportar y firmar APK en Ionic
 * **https://www.nigmacode.com/ionic/Exportar-y-firmar-APK-en-Ionic**
+```
+ionic cordova build --release android
+```

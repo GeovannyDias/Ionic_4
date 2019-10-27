@@ -157,3 +157,5 @@ npm install firebase @angular/fire --save
 ```
 ionic cordova build --release android
 ```
+* **https://ionicframework.com/docs/v1/guide/publishing.html**
+* **https://ionicframework.com/docs/building/android**

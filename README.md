@@ -159,6 +159,5 @@ ionic cordova build --release android
 ```
 * **https://ionicframework.com/docs/v1/guide/publishing.html**
 * **https://ionicframework.com/docs/building/android**
-
-**Como generar Iconos y SplashScreen con Ionic.**
+* **Como generar Iconos y SplashScreen con Ionic.**
 * **https://blog.ng-classroom.com/blog/tips/preparando-iconos-splashscreen/**

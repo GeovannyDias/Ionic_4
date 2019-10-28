@@ -161,7 +161,24 @@ ionic cordova build --release android
 * **https://ionicframework.com/docs/building/android**
 * **Como generar Iconos y SplashScreen con Ionic.**
 * **https://blog.ng-classroom.com/blog/tips/preparando-iconos-splashscreen/**
+**Ionic V3**
+* **https://ionicframework.com/docs/v3/developer-resources/platform-setup/windows-setup.html**
 
 # Instalar gradle en WINDOWS 10
 * **https://rstopup.com/como-puedo-instalar-gradle-en-windows-10.html**
 * **https://gradle.org/**
+```
+Ejecutar en la linea de comandos:
+$ java
+$ android
+  For command-line tools, use tools\bin\sdkmanager.bat
+  and tools\bin\avdmanager.bat
+$ gradle
+```
+***Crear APK**
+```
+ionic i -g cordova
+ionic cordova platform rm android
+ionic cordova platform add android
+ionic cordova build android
+```

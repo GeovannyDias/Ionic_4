@@ -182,3 +182,18 @@ ionic cordova platform rm android
 ionic cordova platform add android
 ionic cordova build android
 ```
+# Android Studio
+**Licencia**
+* **https://www.it-swarm.net/es/android/no-ha-aceptado-los-acuerdos-de-licencia-de-los-siguientes-componentes-de-sdk/828010816/**
+
+**Instalación**
+* **https://ionicframework.com/docs/installation/android**
+
+```
+android_sdk_root is a system variable which points to root folder of android sdk tools. You probably get the error because the variable is not set. To set it in Android Studio go to:
+
+File -> project Structure into Project Structure
+Left -> SDK Location
+SDK location select Android SDK location
+If you have installed android SDK please refer to this answer to find the path to it: https://stackoverflow.com/a/15702396/3625900
+```

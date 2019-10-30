@@ -78,6 +78,14 @@ queryUser() {
   En la segunda consulta se pude enviar como valor el uid del usuario logueado.
   
 ```
+# Salir de App
+
+```
+salir(){
+   navigator['app'].exitApp();
+}
+
+```
 **Información similar al tema anterior**
 
 * **https://firebase.google.com/docs/firestore/query-data/get-data?hl=es-419**

@@ -205,3 +205,10 @@ Left -> SDK Location
 SDK location select Android SDK location
 If you have installed android SDK please refer to this answer to find the path to it: https://stackoverflow.com/a/15702396/3625900
 ```
+
+# Tareas en Segundo Plano
+**Background Mode Ionic – Cómo ejecutar tareas en segundo plano**
+* **https://como-programar.net/ionic/background-mode/**
+**Obtener ubicación en la aplicación Ionic/Cordova cuando en segundo plano**
+* **https://codeday.me/es/qa/20190116/100005.html**
+

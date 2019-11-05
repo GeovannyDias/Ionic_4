@@ -218,8 +218,9 @@ If you have installed android SDK please refer to this answer to find the path t
 
 **Local Notifications**
 * **https://ionicframework.com/docs/native/local-notifications**
+* **https://github.com/katzer/cordova-plugin-local-notifications**
 
-**Notificaciones Push 📲 || IONIC4 + Firebase (FCM) || Video 1**
+**Notificaciones Push|| IONIC4 + Firebase (FCM) || Video 1**
 * **https://www.youtube.com/watch?v=fOojJls2-ao**
 
 **Curso de Ionic 3: Notificaciones Push con FCM Firebase Cloud Messaging Parte 4**

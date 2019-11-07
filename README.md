@@ -136,6 +136,8 @@ npm install firebase @angular/fire --save
 
 * **https://stackoverflow.com/questions/46406300/ionviewwillenter-vs-ionviewdidenter**
 
+* **https://ionicframework.com/docs/v3/api/navigation/NavController/#lifecycle-events**
+
 # Eliminar la suscripción a un observable de Angular
 
 * **https://desarrolloweb.com/articulos/eliminar-suscripcion-observable-angular.html**

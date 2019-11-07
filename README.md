@@ -132,9 +132,9 @@ npm install firebase @angular/fire --save
 
 * **https://blog.ng-classroom.com/blog/tips/lifecycle-ionic/**
 
-# Aprende el ciclo de vida de un componente en Ionic
+# Ciclo de vida de un componente en Ionic
 
-* **https://blog.ng-classroom.com/blog/tips/lifecycle-ionic/**
+* **https://stackoverflow.com/questions/46406300/ionviewwillenter-vs-ionviewdidenter**
 
 # Eliminar la suscripción a un observable de Angular
 

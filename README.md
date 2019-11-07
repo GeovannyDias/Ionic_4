@@ -225,3 +225,6 @@ If you have installed android SDK please refer to this answer to find the path t
 
 **Curso de Ionic 3: Notificaciones Push con FCM Firebase Cloud Messaging Parte 4**
 * **https://www.youtube.com/watch?v=UkpAQT21xBM**
+
+# Timer
+* **https://forum.ionicframework.com/t/looking-for-a-simple-ionic-timer-countdown-code/115164/9**

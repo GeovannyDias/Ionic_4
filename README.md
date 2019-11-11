@@ -233,3 +233,6 @@ If you have installed android SDK please refer to this answer to find the path t
 
 # Ionic 4 + Angular Material 8 | How to Install Material and Use its Components in Ionic App
 * **https://www.freakyjolly.com/ionic-4-angular-material-8-how-to-install-material-and-use-its-components-in-ionic-app/**
+
+# Creating a simple accordion widget in Ionic 4 // @Input(), @Output()
+* **http://masteringionic.com/blog/2019-01-27-creating-a-simple-accordion-widget-in-ionic-4/**

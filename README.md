@@ -236,3 +236,6 @@ If you have installed android SDK please refer to this answer to find the path t
 
 # Creating a simple accordion widget in Ionic 4 // @Input(), @Output()
 * **http://masteringionic.com/blog/2019-01-27-creating-a-simple-accordion-widget-in-ionic-4/**
+
+# Angular Material - Documentation
+* **https://material.angular.io/components/expansion/examples**

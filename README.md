@@ -162,10 +162,27 @@ npm install firebase @angular/fire --save
 # Ionic 4 | Turn on Device GPS in Ionic 4 Application Without Leaving App using Ionic Native Plugin
 * **https://www.freakyjolly.com/ionic-4-turn-on-device-gps-in-ionic-4-application-without-leaving-app-using-ionic-native-plugin/**
 
+# Splash Screen and Icon
+```
+carpeta /resources.
+
+Personalizar icon.png y splash.png. en las siguientes resoluciones.
+
+icon.png > 1024 x 1024
+splash.png > 2732 x 2732
+
+Reemplazar estas imagenes con las anteriores /resources/icon.png y /resources/splash.png
+
+Run:
+
+    ionic cordova resources
+```
+
 # Exportar y firmar APK en Ionic
 * **https://www.nigmacode.com/ionic/Exportar-y-firmar-APK-en-Ionic**
 ```
 ionic cordova build --release android
+ionic cordova build android --prod --release
 ```
 * **https://ionicframework.com/docs/v1/guide/publishing.html**
 * **https://ionicframework.com/docs/building/android**
@@ -239,3 +256,5 @@ If you have installed android SDK please refer to this answer to find the path t
 
 # Angular Material - Documentation
 * **https://material.angular.io/components/expansion/examples**
+
+

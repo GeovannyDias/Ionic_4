@@ -257,4 +257,6 @@ If you have installed android SDK please refer to this answer to find the path t
 # Angular Material - Documentation
 * **https://material.angular.io/components/expansion/examples**
 
+# Create a Custom Modal Page Transition Animation in Ionic
+* **https://www.joshmorony.com/create-a-custom-modal-page-transition-animation-in-ionic/**
 

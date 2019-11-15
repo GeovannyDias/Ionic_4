@@ -260,3 +260,58 @@ If you have installed android SDK please refer to this answer to find the path t
 # Create a Custom Modal Page Transition Animation in Ionic
 * **https://www.joshmorony.com/create-a-custom-modal-page-transition-animation-in-ionic/**
 
+# CAMERA
+```
+ionic cordova plugin add cordova-plugin-camera
+npm install @ionic-native/camera
+
+// app.module.ts
+import { Camera } from '@ionic-native/camera/ngx';
+
+...
+
+@NgModule({
+  ...
+
+  providers: [
+    ...
+    Camera
+    ...
+  ]
+  ...
+})
+export class AppModule { }
+
+// camera.service.ts
+import { Injectable } from '@angular/core';
+import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+
+
+//================================================================================
+// GER PICTURE "NATIVE"
+  getPicture() {
+    // console.log("fotoo");
+    // this.myForm.get('foto').setValue('httpsghjkjhgf');
+    let options: CameraOptions = {
+      destinationType: this._camera.DestinationType.DATA_URL,
+      targetWidth: 1000,
+      targetHeight: 1000,
+      quality: 100
+    }
+    this._camera.getPicture(options)
+      .then(imageData => {
+        this.myForm.get('foto').setValue('data:image/jpeg;base64,' + imageData.toString());
+        // this.pasajero.foto = `data:image/jpeg;base64,${imageData}`; //`${imageData}`;
+      })
+      .catch(error => {
+        console.log('Error camara: ' + error);
+      });
+  }
+```
+* **https://ionicframework.com/docs/native/camera**
+* **https://ionicframework.com/docs/native/overview**
+
+### COMO UTILIZAR LA CÁMARA EN IONIC 4
+* **https://www.programacionnet.com/2019/03/como-utilizar-la-camara-en-ionic-4.html**
+### Ejemplo de uso de la cámara en Ionic 4
+* **https://javiergarciaescobedo.es/ionic/497-ejemplo-de-uso-de-la-camara-en-ionic-4**

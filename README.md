@@ -315,3 +315,6 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 * **https://www.programacionnet.com/2019/03/como-utilizar-la-camara-en-ionic-4.html**
 ### Ejemplo de uso de la cámara en Ionic 4
 * **https://javiergarciaescobedo.es/ionic/497-ejemplo-de-uso-de-la-camara-en-ionic-4**
+
+# Ionic 4 Bottom Drawer
+* **https://github.com/toniantunovi/ion-bottom-drawer*

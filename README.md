@@ -318,3 +318,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 # Ionic 4 Bottom Drawer
 * **https://github.com/toniantunovi/ion-bottom-drawer*
+
+# JSON.stringify()
+* **https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/stringify**
+
+# A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.
+* **https://github.com/travist/jsencrypt**

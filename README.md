@@ -209,6 +209,13 @@ ionic cordova platform rm android
 ionic cordova platform add android
 ionic cordova build android
 ```
+```
+PDF:
+
+cordova platform rm android --save
+cordova platform add android --save
+ionic cordova resources android --force
+```
 # Android Studio
 **Licencia**
 * **https://www.it-swarm.net/es/android/no-ha-aceptado-los-acuerdos-de-licencia-de-los-siguientes-componentes-de-sdk/828010816/**

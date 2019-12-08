@@ -324,3 +324,5 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 # A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.
 * **https://github.com/travist/jsencrypt**
+# Copiando cualquier otro tipo de datos en JavaScript
+* **https://platzi.com/blog/como-copiar-objetos-en-javascript-sin-morir-en-el-intento/**

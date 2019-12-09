@@ -344,3 +344,6 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 * **https://github.com/travist/jsencrypt**
 # Copiando cualquier otro tipo de datos en JavaScript
 * **https://platzi.com/blog/como-copiar-objetos-en-javascript-sin-morir-en-el-intento/**
+
+# Ionic Native… ¿en el navegador?
+* **http://blog.enriqueoriol.com/2017/04/ionic-native-navegador.html**

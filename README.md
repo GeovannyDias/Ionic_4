@@ -326,6 +326,10 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 # Ionic 4 | Add Barcode/ QR Code Scanner/ Encoder Generator Ionic 4 Native Plugin
 * **https://www.freakyjolly.com/ionic-4-add-barcode-qr-code-scanner-encoder-ionic-4-native-plugin/**
 
+# Ionic 4 QR Code, Barcode Scanning
+* **https://enappd.com/blog/ionic-4-qr-code-barcode-scanning/82/**
+* **https://github.com/mdshadman/QrcodeBarcode/tree/QRCode**
+
 # Ionic 4 Bottom Drawer
 * **https://github.com/toniantunovi/ion-bottom-drawer*
 

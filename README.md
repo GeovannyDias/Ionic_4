@@ -323,6 +323,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 ### Ejemplo de uso de la cámara en Ionic 4
 * **https://javiergarciaescobedo.es/ionic/497-ejemplo-de-uso-de-la-camara-en-ionic-4**
 
+# Ionic 4 | Add Barcode/ QR Code Scanner/ Encoder Generator Ionic 4 Native Plugin
+* **https://www.freakyjolly.com/ionic-4-add-barcode-qr-code-scanner-encoder-ionic-4-native-plugin/**
+
 # Ionic 4 Bottom Drawer
 * **https://github.com/toniantunovi/ion-bottom-drawer*
 

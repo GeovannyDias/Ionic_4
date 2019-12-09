@@ -84,8 +84,12 @@ queryUser() {
 salir(){
    navigator['app'].exitApp();
 }
-
 ```
+* **https://forum.ionicframework.com/t/hardware-back-button-with-ionic-4/137905/1**
+
+##### With Tabs
+* **https://forum.ionicframework.com/t/v4-back-button-doesnt-exit-app-solved-tutorial/149994/21**
+
 **Información similar al tema anterior**
 
 * **https://firebase.google.com/docs/firestore/query-data/get-data?hl=es-419**

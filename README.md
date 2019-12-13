@@ -347,3 +347,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 # Ionic Native… ¿en el navegador?
 * **http://blog.enriqueoriol.com/2017/04/ionic-native-navegador.html**
+
+# MAPS
+### Ionic 4 | Add Google Maps JavaScript API, Geolocation and Geocoder in Ionic 4 Native Application
+* **https://www.freakyjolly.com/ionic-4-add-google-maps-geolocation-and-geocoder-in-ionic-4-native-application/**
+
+

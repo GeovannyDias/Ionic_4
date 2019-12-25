@@ -352,4 +352,13 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 ### Ionic 4 | Add Google Maps JavaScript API, Geolocation and Geocoder in Ionic 4 Native Application
 * **https://www.freakyjolly.com/ionic-4-add-google-maps-geolocation-and-geocoder-in-ionic-4-native-application/**
 
+# InAppBrowser
+* **https://ionicframework.com/docs/enterprise/inappbrowser**
+* **http://blog.josmantek.com/ionic-framework/abrir-urls-externas-con-ionic-framework/**
+* **https://stackoverflow.com/questions/35562745/ionic-application-open-link-in-system-browser**
+
+# Foreground Service
+* **https://ionicframework.com/docs/native/foreground-service**
+# Background Mode
+* **https://ionicframework.com/docs/native/background-mode**
 

@@ -361,4 +361,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 * **https://ionicframework.com/docs/native/foreground-service**
 # Background Mode
 * **https://ionicframework.com/docs/native/background-mode**
-
+# Ionic 4 modal size // MODAL SIZE
+* **https://forum.ionicframework.com/t/ionic-4-modal-size/152372**
+# 20- ion-modal custom size - Ionic 4
+https://www.youtube.com/watch?v=U8BMCD8Y6zk

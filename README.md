@@ -365,3 +365,12 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 * **https://forum.ionicframework.com/t/ionic-4-modal-size/152372**
 # 20- ion-modal custom size - Ionic 4
 * **https://www.youtube.com/watch?v=U8BMCD8Y6zk**
+
+# Error: Cannot load empty config.xml file. at ConfigConfig.reload
+```
+Go to Ionic Project directory
+
+And,
+
+ionic integrations enable cordova --add
+```

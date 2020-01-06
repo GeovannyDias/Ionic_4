@@ -374,3 +374,9 @@ And,
 
 ionic integrations enable cordova --add
 ```
+# npm-audit
+```
+npm audit fix   → FIX VULNERABILITIES 
+npm audit       →  SHOW DETAILS
+```
+* **https://docs.npmjs.com/cli/audit**

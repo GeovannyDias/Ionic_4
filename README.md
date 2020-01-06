@@ -380,3 +380,6 @@ npm audit fix   → FIX VULNERABILITIES
 npm audit       →  SHOW DETAILS
 ```
 * **https://docs.npmjs.com/cli/audit**
+# @types/googlemaps
+* **https://www.npmjs.com/package/@types/googlemaps**
+* **https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/googlemaps/googlemaps-tests.ts**

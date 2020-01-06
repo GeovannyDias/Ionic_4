@@ -383,3 +383,11 @@ npm audit       →  SHOW DETAILS
 # @types/googlemaps
 * **https://www.npmjs.com/package/@types/googlemaps**
 * **https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/googlemaps/googlemaps-tests.ts**
+# GEOFIREX:
+
+* **https://github.com/codediodeio/geofirex**
+* **https://geo-test-c92e4.firebaseapp.com/**
+* **https://angularfirebase.com/lessons/geolocation-query-in-firestore-realtime/**
+# GEOFIRE:
+* **https://github.com/firebase/geofire-js**
+

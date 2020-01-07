@@ -25,6 +25,7 @@ export class HomePage implements OnInit {
       animated: true,
       component: GradeModalPage,
       cssClass: 'dialog-modal',
+      backdropDismiss: false, // No permite cerrar el modal presionando sus alrededores
       componentProps: {
         data: 'data'
       }

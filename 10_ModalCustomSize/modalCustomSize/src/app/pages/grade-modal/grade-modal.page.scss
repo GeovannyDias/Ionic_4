@@ -6,6 +6,8 @@
   text-align: center;
   border: 1px solid #cccccc;
   background: #f9f9f9;
+  direction: rtl; // right to left
+  unicode-bidi: bidi-override; // consultar
 }
 
 .rating label:not(:first-of-type) {
@@ -20,9 +22,15 @@
 }
 
 .rating input {
-    display: none;
+  display: none;
 }
 
-.rating input:checked ~ label::before, .rating:not(:checked) > label:hover::before, .rating:not(:checked){
-    color: #000000;
+.rating input:checked ~ label::before,
+.rating:not(:checked) > label:hover::before,
+.rating:not(:checked) {
+  color: #000000;
 }
+
+//http://w3.unpocodetodo.info/css3/estrellas.php
+// http://w3.unpocodetodo.info/css3/ejemplos/estrellas.php
+// https://webdesign.tutsplus.com/es/tutorials/a-simple-javascript-technique-for-filling-star-ratings--cms-29450

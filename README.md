@@ -264,6 +264,7 @@ If you have installed android SDK please refer to this answer to find the path t
 
 # Timer
 * **https://forum.ionicframework.com/t/looking-for-a-simple-ionic-timer-countdown-code/115164/9**
+* **https://codepen.io/zebateira/pen/VvqJwm**
 
 # Ionic 4 + Angular Material 8 | How to Install Material and Use its Components in Ionic App
 * **https://www.freakyjolly.com/ionic-4-angular-material-8-how-to-install-material-and-use-its-components-in-ionic-app/**

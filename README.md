@@ -40,9 +40,15 @@ ionViewWillEnter() {
 # Parámetros en las rutas Angular
 * **https://desarrolloweb.com/articulos/parametros-rutas-angular.html**
 
-# Realiza consultas simples y compuestas en Cloud Firestore
+# FIREBASE
+
+## Realiza consultas simples y compuestas en Cloud Firestore
 
 * **https://firebase.google.com/docs/firestore/query-data/queries?hl=es-419**
+## Agrega datos a Cloud Firestore
+* **https://firebase.google.com/docs/firestore/manage-data/add-data?hl=es**
+## Borra datos de Cloud Firestore
+* **https://firebase.google.com/docs/firestore/manage-data/delete-data?hl=es**
 
 ```
 Agregar la propiedad ".ref"

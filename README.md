@@ -49,6 +49,8 @@ ionViewWillEnter() {
 * **https://firebase.google.com/docs/firestore/manage-data/add-data?hl=es**
 ## Borra datos de Cloud Firestore
 * **https://firebase.google.com/docs/firestore/manage-data/delete-data?hl=es**
+## CRUD - GEO
+* **https://devdactic.com/ionic-4-firebase-angularfire/**
 
 ```
 Agregar la propiedad ".ref"

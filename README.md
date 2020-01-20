@@ -423,3 +423,6 @@ Next, install the package (comes by default for Ionic apps > Ionic V1):
 
 npm install --save @ionic/storage
 ```
+
+# Animate.css
+* **https://daneden.github.io/animate.css/**

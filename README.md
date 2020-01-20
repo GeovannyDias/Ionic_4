@@ -406,3 +406,10 @@ npm audit       →  SHOW DETAILS
 # GEOFIRE:
 * **https://github.com/firebase/geofire-js**
 
+# STORAGE
+**Ionic 4 — Save and Retrieve Data Locally on Device**
+* **https://enappd.com/blog/ionic-4-save-and-retrieve-data-locally-on-device/59/**
+**Ionic 4 Storage Tutorial and Example**
+* **https://www.techiediaries.com/ionic-storage-tutorial-example/**
+**Data Storage**
+* **https://ionicframework.com/docs/building/storage**

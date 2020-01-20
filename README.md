@@ -270,6 +270,9 @@ If you have installed android SDK please refer to this answer to find the path t
 **Push Notification using Ionic 4 and Firebase Cloud Messaging**
 * **https://www.djamware.com/post/5c6ccd1f80aca754f7a9d1ec/push-notification-using-ionic-4-and-firebase-cloud-messaging**
 
+**Cómo establecer ícono y sonido personalizado para las notificaciones en android [FCM-Ionic-Cordova]**
+* **https://medium.com/@IngAjvillalon/como-establecer-icono-y-sonido-personalizado-para-las-notificaciones-en-android-723edb5f49c7**
+
 # Timer
 * **https://forum.ionicframework.com/t/looking-for-a-simple-ionic-timer-countdown-code/115164/9**
 * **https://codepen.io/zebateira/pen/VvqJwm**

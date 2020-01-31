@@ -85,6 +85,28 @@ queryUser() {
   
   En la segunda consulta se pude enviar como valor el uid del usuario logueado.
   
+  
+  -----------------------------------------------------------------------------------------
+  Función donde no se necesita la validacion de autenticacion, no arroja error
+  
+async getDataUser() {
+    this.pasajeroService.getUsers().subscribe(data => {
+      data.forEach((doc) => {
+        const uid = this.afAuth.auth.currentUser.uid;
+        if (uid === doc.uid) {
+          this.dataUser = doc;
+          this.validarMetodo_checkRadio(this.dataUser);
+          if (!this.dataUser.saldo) {
+            this.dataUser.saldo = 0;
+            this.valor = this.dataUser.saldo;
+          } else {
+            this.valor = this.dataUser.saldo;
+          }
+          // user.unsubscribe();
+        }
+      })
+    });
+  
 ```
 # Salir de App
 

@@ -272,6 +272,14 @@ If you have installed android SDK please refer to this answer to find the path t
 **Obtener ubicación en la aplicación Ionic/Cordova cuando en segundo plano**
 * **https://codeday.me/es/qa/20190116/100005.html**
 
+**ISSUES**
+**Background Mode is running for only 5 min in Android 9**
+* **https://github.com/katzer/cordova-plugin-background-mode/issues/430**
+
+**Background Mode - DOC**
+* **https://ionicframework.com/docs/v3/native/background-mode/#disableWebViewOptimizations**
+* **https://ionicframework.com/docs/native/background-mode**
+
 # Notificaciones
 **Push**
 * **https://ionicframework.com/docs/native/push**

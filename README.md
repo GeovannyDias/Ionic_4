@@ -276,6 +276,9 @@ If you have installed android SDK please refer to this answer to find the path t
 **Background Mode is running for only 5 min in Android 9**
 * **https://github.com/katzer/cordova-plugin-background-mode/issues/430**
 
+* **https://github.com/katzer/cordova-plugin-background-mode/issues/400**
+* **https://github.com/katzer/cordova-plugin-background-mode/commit/a9669052c0e927eedaa03d896217a011b87eb43c#diff-53f390d375398624afe1cfe1125f42bf**
+
 **Background Mode - DOC**
 * **https://ionicframework.com/docs/v3/native/background-mode/#disableWebViewOptimizations**
 * **https://ionicframework.com/docs/native/background-mode**

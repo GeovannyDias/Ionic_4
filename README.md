@@ -465,3 +465,18 @@ npm install --save @ionic/storage
 
 # Animate.css
 * **https://daneden.github.io/animate.css/**
+
+# Background Geolocation
+
+* **https://ionicframework.com/docs/native/background-geolocation**
+
+**Background Geolocation Ionic**
+
+* **https://como-programar.net/ionic/background-geolocation/**
+
+**Ionic 4 with Background Geolocation**
+
+* **https://medium.com/@chenlitchian/ionic-4-with-background-geolocation-cc57149da36a**
+
+**Ionic 3**
+* **https://ionicframework.com/docs/v3/native/background-geolocation/**

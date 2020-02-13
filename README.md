@@ -480,3 +480,7 @@ npm install --save @ionic/storage
 
 **Ionic 3**
 * **https://ionicframework.com/docs/v3/native/background-geolocation/**
+
+# ngx-ionic-image-viewer
+
+* **https://github.com/SimonGolms/ngx-ionic-image-viewer**

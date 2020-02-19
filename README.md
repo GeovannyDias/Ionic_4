@@ -211,7 +211,7 @@ Run:
 
     ionic cordova resources
 ```
-# CUSTOM ICON
+# CUSTOM ICONS
 **Iconos SVG personalizados con Ionic 3 e Ionic 4**
 * **https://golb.hplar.ch/2018/01/Custom-SVG-icons-in-Ionic.html**
 

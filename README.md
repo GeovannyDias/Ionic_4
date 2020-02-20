@@ -18,10 +18,21 @@ Codigo
 # Tab Button
 
 ```
-<ion-tab-button layout="icon-top" (click)="functionOther()">
-   <ion-icon color="other" src="assets/img/code.svg"></ion-icon>
-   <ion-label color="other" class="ion-text-capitalize">scanner</ion-label>
-</ion-tab-button>
+HTML:
+<div>
+   <ion-tab-button class="icon-color" layout="icon-top" (click)="functionOther()">
+      <ion-icon color="other" src="assets/img/code.svg"></ion-icon>
+      <ion-label color="other" class="ion-text-capitalize">scanner</ion-label>
+   </ion-tab-button>
+</div>
+
+CSS:
+.icon-color{
+ color: #FFSD5D
+}
+
+Para que tome color de dondo de un "Header" colocar el TAB entre una etiqueta DIV u otra, y agregar una clase en el cual se referencia el color del contraste.
+
 ```
 
 # MenuController

@@ -31,7 +31,7 @@ CSS:
  color: #FFSD5D
 }
 
-Para que tome color de dondo de un "Header" colocar el TAB entre una etiqueta DIV u otra, y agregar una clase en el cual se referencia el color del contraste.
+Para que tome el color de fondo de un "Header" colocar el TAB entre una etiqueta DIV u otra, y agregar una clase en el cual se referencia el color del contraste.
 
 ```
 

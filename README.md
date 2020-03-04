@@ -308,6 +308,31 @@ If you have installed android SDK please refer to this answer to find the path t
 * **https://ionicframework.com/docs/v3/native/background-mode/#disableWebViewOptimizations**
 * **https://ionicframework.com/docs/native/background-mode**
 
+**Ionic 4 - Android 9 - App crash on permission requests**
+* **https://forum.ionicframework.com/t/ionic-4-android-9-app-crash-on-permission-requests/160107**
+
+```
+Hello, yes I just recently found a solution. With the new Cordova Android 8.0.0 you can edit the android-manifes.xml adding proerties the to config.xml in the Inioc project.
+
+I solved my problems adding the following statement to the ‘platform name=android’ tag:
+
+tag:
+
+  <platform name="android">
+        <allow-intent href="market:*" />
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/uses-permission"   xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+        </edit-config>
+        // ....Other configs omitted
+    </platform>
+
+
+You need to declare that the app will need the FOREGROUND_PERMISSION, wich is a breaking change they added to the Android SDK 28.
+
+I hope this will solve your poblem too.
+
+```
+
 # Notificaciones
 **Push**
 * **https://ionicframework.com/docs/native/push**

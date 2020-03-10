@@ -62,6 +62,10 @@ npm i --save-dev @ionic/lab
 ionic serve -l
 ```
 
+```
+adb devices
+ionic cordova run android
+```
 
 # Information Web
 

@@ -55,6 +55,14 @@ ionViewWillEnter() {
   
 ```
 
+# IONIC LAB
+
+```
+npm i --save-dev @ionic/lab
+ionic serve -l
+```
+
+
 # Information Web
 
 # Parámetros en las rutas Angular

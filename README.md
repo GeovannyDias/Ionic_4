@@ -368,6 +368,9 @@ I hope this will solve your poblem too.
 **Cómo establecer ícono y sonido personalizado para las notificaciones en android [FCM-Ionic-Cordova]**
 * **https://medium.com/@IngAjvillalon/como-establecer-icono-y-sonido-personalizado-para-las-notificaciones-en-android-723edb5f49c7**
 
+**Push Notification using Ionic 4 and Firebase Cloud Messaging**
+* **https://morioh.com/p/c0bc44ba6fcb**
+
 # Timer
 * **https://forum.ionicframework.com/t/looking-for-a-simple-ionic-timer-countdown-code/115164/9**
 * **https://codepen.io/zebateira/pen/VvqJwm**

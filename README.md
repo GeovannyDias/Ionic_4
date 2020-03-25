@@ -67,6 +67,14 @@ adb devices
 ionic cordova run android
 ```
 
+# GUARDS
+
+```
+
+ionic generate guard guards/auth --skipTests
+ionic generate guard guards/nologin --skipTests
+```
+
 # Information Web
 
 # Parámetros en las rutas Angular

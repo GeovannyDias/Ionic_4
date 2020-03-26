@@ -557,3 +557,10 @@ npm install --save @ionic/storage
 # ngx-ionic-image-viewer
 
 * **https://github.com/SimonGolms/ngx-ionic-image-viewer**
+
+
+# Capitalize JS:
+```
+string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+
+```

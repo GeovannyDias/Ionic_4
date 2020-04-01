@@ -564,3 +564,5 @@ npm install --save @ionic/storage
 string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 
 ```
+# Flecha sin contenedor CSS
+* **https://www.desarrollolibre.net/blog/css/truco-css-construir-flechas-en-los-contenedores-html#.XoPSzogzbIU**

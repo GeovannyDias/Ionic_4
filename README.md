@@ -353,6 +353,10 @@ I hope this will solve your poblem too.
 
 ```
 
+# Keep Running Ionic 5/Angular Apps In Background Mode (With Example)
+
+* **https://www.techiediaries.com/ionic-background-mode/**
+
 # Notificaciones
 **Push**
 * **https://ionicframework.com/docs/native/push**

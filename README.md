@@ -558,6 +558,14 @@ npm install --save @ionic/storage
 **Ionic 3**
 * **https://ionicframework.com/docs/v3/native/background-geolocation/**
 
+**Ionic 3**
+* **https://ionicframework.com/docs/v3/native/background-geolocation/**
+
+**Error Background Geolocation**
+* **https://github.com/mauron85/cordova-plugin-background-geolocation/issues/553**
+
+
+
 # ngx-ionic-image-viewer
 
 * **https://github.com/SimonGolms/ngx-ionic-image-viewer**

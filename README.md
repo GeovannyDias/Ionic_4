@@ -505,6 +505,13 @@ And,
 
 ionic integrations enable cordova --add
 ```
+# RangeError: Maximum call stack size exceeded
+
+```
+Verificar las rutas del app-routing.module.ts, eliminar la ruta si se esta utilizando la página como modal.
+```
+
+
 # npm-audit
 ```
 npm audit fix   → FIX VULNERABILITIES 

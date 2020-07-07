@@ -571,7 +571,24 @@ npm install --save @ionic/storage
 **Error Background Geolocation**
 * **https://github.com/mauron85/cordova-plugin-background-geolocation/issues/553**
 
+**Ionic2**
+* **https://blog.maestriajs.com/blog/ionic2/background-geolocation/**
 
+
+```
+Optional: You will need to install cordova-android-support-gradle-release if failed to build due to version issue. See here.
+
+cordova plugin cordova-android-support-gradle-release
+
+cordova-android-support-gradle-release is a plugin to align various versions of the Android Support libraries specified by other plugins to a specific version.
+
+config.xml
+
+<platform name="android">...
+   <resource-file src="resources/android/icon/drawable-xxxhdpi-icon.png" target="app/src/main/res/mipmap/icon.png" />
+</platform>
+
+```
 
 # ngx-ionic-image-viewer
 

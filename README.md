@@ -565,7 +565,7 @@ npm install --save @ionic/storage
 ```
 Optional: You will need to install cordova-android-support-gradle-release if failed to build due to version issue. See here.
 
-cordova plugin cordova-android-support-gradle-release
+cordova plugin cordova-android-support-gradle-release --save
 
 cordova-android-support-gradle-release is a plugin to align various versions of the Android Support libraries specified by other plugins to a specific version.
 

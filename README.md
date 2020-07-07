@@ -562,19 +562,6 @@ npm install --save @ionic/storage
 
 * **https://medium.com/@chenlitchian/ionic-4-with-background-geolocation-cc57149da36a**
 
-**Ionic 3**
-* **https://ionicframework.com/docs/v3/native/background-geolocation/**
-
-**Ionic 3**
-* **https://ionicframework.com/docs/v3/native/background-geolocation/**
-
-**Error Background Geolocation**
-* **https://github.com/mauron85/cordova-plugin-background-geolocation/issues/553**
-
-**Ionic2**
-* **https://blog.maestriajs.com/blog/ionic2/background-geolocation/**
-
-
 ```
 Optional: You will need to install cordova-android-support-gradle-release if failed to build due to version issue. See here.
 
@@ -589,6 +576,19 @@ config.xml
 </platform>
 
 ```
+
+**Ionic 3**
+* **https://ionicframework.com/docs/v3/native/background-geolocation/**
+
+**Ionic 3**
+* **https://ionicframework.com/docs/v3/native/background-geolocation/**
+
+**Error Background Geolocation**
+* **https://github.com/mauron85/cordova-plugin-background-geolocation/issues/553**
+
+**Ionic2**
+* **https://blog.maestriajs.com/blog/ionic2/background-geolocation/**
+
 
 # ngx-ionic-image-viewer
 

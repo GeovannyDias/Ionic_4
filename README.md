@@ -53,6 +53,11 @@ ionViewWillEnter() {
     this.menuCtrl.enable(false, 'primerMenuGeo');
   }
   
+  
+  IONIC 5 Modern looking menu - UI design
+  
+  https://www.youtube.com/watch?v=9VLsKq9F1Us
+  
 ```
 
 # IONIC LAB

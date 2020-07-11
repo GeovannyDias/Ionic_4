@@ -471,7 +471,10 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 * **https://github.com/mdshadman/QrcodeBarcode/tree/QRCode**
 
 # Ionic 4 Bottom Drawer
-* **https://github.com/toniantunovi/ion-bottom-drawer*
+* **https://github.com/toniantunovi/ion-bottom-drawer**
+
+# Cupertino Pane
+* **https://github.com/roman-rr/cupertino-pane**
 
 # JSON.stringify()
 * **https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/stringify**

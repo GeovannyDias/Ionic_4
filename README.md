@@ -512,6 +512,8 @@ Go to Ionic Project directory
 And,
 
 ionic integrations enable cordova --add
+
+You can add your resources again by running
 ```
 # RangeError: Maximum call stack size exceeded
 

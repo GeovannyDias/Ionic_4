@@ -615,3 +615,8 @@ string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 
 # Ionic 5 Angular Responsive Grid Tutorial with Examples
 * **https://www.positronx.io/ionic-angular-responsive-grid-tutorial-with-examples/**
+
+# Draw Over All Apps plugin for Cordova
+* **https://www.npmjs.com/package/cordova-plugin-drawoverapps?activeTab=readme**
+* **https://forum.ionicframework.com/t/draw-over-all-apps-cordova-plugin-for-android/92613**
+* **https://github.com/ahmedwahba/cordova-plugin-drawoverapps**

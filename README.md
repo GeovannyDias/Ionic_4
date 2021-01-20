@@ -579,11 +579,21 @@ cordova plugin cordova-android-support-gradle-release --save
 
 cordova-android-support-gradle-release is a plugin to align various versions of the Android Support libraries specified by other plugins to a specific version.
 
+
+Agregar esta linea de código al final de la plataforma android
+
 config.xml
 
 <platform name="android">...
    <resource-file src="resources/android/icon/drawable-xxxhdpi-icon.png" target="app/src/main/res/mipmap/icon.png" />
 </platform>
+
+Cada vez que se realice un cambio en configurar config.xml de debe desinstalar el plugin Background Geolocation y eliminar sus dependencias del package.json e instalar el plugin nuevamente.
+
+ionic cordova plugin add @mauron85/cordova-plugin-background-geolocation
+npm install @ionic-native/background-geolocation
+
+ionic cordova platform add android --save
 
 ```
 

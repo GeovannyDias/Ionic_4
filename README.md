@@ -595,6 +595,25 @@ npm install @ionic-native/background-geolocation
 
 ionic cordova platform add android --save
 
+Ionic 5 - Android 10 API (29+) - Add config.xml (Edita archivo AndroidManifest.xml de forma forzada)
+
+<config-file parent="/manifest" target="AndroidManifest.xml" xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+</config-file>
+
+OR (Usar edit-config en el caso que no funciones el anterior)
+
+<edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/uses-permission" xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	           <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+            <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+</edit-config>
+
 ```
 
 **Ionic 3**

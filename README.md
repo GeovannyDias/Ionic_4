@@ -649,3 +649,6 @@ string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 * **https://www.npmjs.com/package/cordova-plugin-drawoverapps?activeTab=readme**
 * **https://forum.ionicframework.com/t/draw-over-all-apps-cordova-plugin-for-android/92613**
 * **https://github.com/ahmedwahba/cordova-plugin-drawoverapps**
+
+# Realiza consultas simples y compuestas en Cloud Firestore (No es igual !=)
+* **https://firebase.google.com/docs/firestore/query-data/queries?hl=es**

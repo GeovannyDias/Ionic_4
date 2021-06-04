@@ -652,3 +652,45 @@ string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 
 # Realiza consultas simples y compuestas en Cloud Firestore (No es igual !=)
 * **https://firebase.google.com/docs/firestore/query-data/queries?hl=es**
+
+# Ionic 5 Get Background Geolocation of Device Example Application
+## Background Geolocation
+## Evitar que una app en background se cierre al abrir otras aplicaciones Ionic Plugin cordova
+
+* *https://es.stackoverflow.com/questions/433194/evitar-que-una-app-en-background-se-cierre-al-abrir-otras-aplicaciones-ionic-plu*
+* *https://ionicframework.com/docs/native/background-geolocation*
+
+```
+No puedes hacer lo que quieres, no funciona así el background mode.
+
+El sistema operativo puede matar el proceso de tu app cuando crea necesario si le falta memoria, por ejemplo al abrir otras apps. Además el usuario puede decidir voluntariamente matar el proceso.
+
+El background mode, aunque se llame así, solo funciona mientras la app esté "abierta" aunque la tengas "minimizada".
+
+Cosas como las que hace Whatsapp cuando te avisa de los mensajes aunque no esté arrancada es por notificaciones push, nada que ver con background mode.
+
+Y si quieres algo como trackear la posición, hay otros métodos, pero no puedes evitar que el sistema mate tu app.
+
+EDIT: Respondiendo a tu pregunta: cómo trackear la posición en background.
+
+Primero, si querías eso hay otro plugin que es Background-Geolocation: https://ionicframework.com/docs/native/background-geolocation
+
+Seguirás teniendo el problema de que se pare al cabo de un rato, pero almenos te facilita toda la tarea de obtener la posición sin tener que instalar otro plugin aparte.
+
+Luego sobre obtener la posición, una forma es usar las notificaciones locales, este método se explica aquí: https://www.freakyjolly.com/ionic-background-geolocation-tutorial/
+
+Pero te lo explico igualmente (resumido, para más detalle lee el artículo). Se trata de usar la misma estrategia que Whatsapp: éste te avisa de los mensajes aunque tengas la app "muerta" porque realmente el móvil recibe una notificación que "despierta" la app, y entonces la app procesa esa notificación (para mostrarte una alerta o lo que sea).
+
+En el caso de Whatsapp (y otras apps) esas notificaciones son externas, recibidas desde un servidor. Pero también se puede crear notificaciones locales, creadas por la propia aplicación, eso lo harías con el plugin Local Notifications: https://ionicframework.com/docs/native/local-notifications
+
+Para que lo entiendas sería como "poner alarmas" cada X tiempo. Entonces lo que haces es poner una "alarma" (notificación) cada X tiempo, que despierta la app y la hace obtener la posición del usuario. Así si el proceso de tu app muere, no pasa nada, la notificación la vuelve a arrancar.
+
+A partir de aquí puedes seguir varias estrategias. Obtener la posición del usuario continuamente, y usar las notificaciones sólo para comprobar si la app se ha parado, o lo que veo mejor: cada X segundos obtener la posición del usuario en el trigger de la notificación. Aquí ya depende de la frecuencia de actualización que necesites.
+
+Por cierto, obviamente configurarías las notificaciones para que sean "silenciosas" es decir, que no te vibre el móvil ni te salga nada en la barra de notificaciones.
+```
+
+
+
+
+

@@ -689,7 +689,9 @@ A partir de aquí puedes seguir varias estrategias. Obtener la posición del usu
 
 Por cierto, obviamente configurarías las notificaciones para que sean "silenciosas" es decir, que no te vibre el móvil ni te salga nada en la barra de notificaciones.
 ```
+# ALL IONIC FIREBASE REACT NATIVE ANGULAR IONIC-REACT CAPACITOR VUE
 
+* *https://enappd.com/blog/*
 
 
 

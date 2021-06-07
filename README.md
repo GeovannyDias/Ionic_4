@@ -693,6 +693,6 @@ Por cierto, obviamente configurarías las notificaciones para que sean "silencio
 
 * *https://enappd.com/blog/*
 
-
+* *https://como-programar.net/ionic/background-mode/*
 
 

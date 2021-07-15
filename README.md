@@ -80,6 +80,23 @@ ionic generate guard guards/auth --skipTests
 ionic generate guard guards/nologin --skipTests
 ```
 
+# DIRECTIVES
+
+```
+
+Angular:
+ng generate directive crashImage
+Ionic:
+ionic g directive directives/crashImage --skip-import --skipTests
+
+ionic g directive directives/crashImage --skipTests
+
+IMPORTAR EN app.module.ts o en el @NgModule de la pagina que se quiere utilizar
+
+declarations: [CrashImageDirective],
+
+```
+
 # Information Web
 
 # Parámetros en las rutas Angular
